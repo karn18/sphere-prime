@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sphere-prime'
+gem 'sphere-prime', git: 'https://github.com/karn18/sphere-prime
 ```
 
 And then execute:
