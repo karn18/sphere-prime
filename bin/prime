@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'sphere/prime/cli'
+Sphere::Prime::Cli.start
