@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sphere-prime
+    $ gem install sphere-prime -s https://github.com/karn18/sphere-prime sphere-prime
 
 ## Usage
 
