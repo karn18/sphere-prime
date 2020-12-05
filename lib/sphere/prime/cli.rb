@@ -10,7 +10,8 @@ module Sphere
       attr_reader :framework
 
       FRAMEWORKS = {
-        ruby: %w[.rubocop.yml]
+        ruby: %w[.rubocop.yml],
+        javascript: %w[.eslintrc]
       }.freeze
 
       def self.exit_on_failure?
@@ -47,7 +48,6 @@ module Sphere
       end
 
       def create_files(path)
-        puts init_files
         init_files.each do |file|
           copy_file File.join(self.class.source_root, 'templates', file), File.join(path, file)
         end
